@@ -1,0 +1,151 @@
+body {
+    width: 100%;
+    height: 100%;
+    color: #e0e0e0;
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+@media(min-width:767px) {
+    .navbar {
+        background-color: rgba(0,0,0,.5);
+        padding: 20px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+        text-align: center;
+    }
+
+    .navbar-default .navbar-nav > li > a {
+        color: #1565c0; /*Change active text color here*/
+    }
+
+    .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+        color: white;  /*Sets the text hover color on navbar*/
+    }
+
+    .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+        color: #1565c0; /*BACKGROUND color for active*/
+        background: none;
+    }
+}
+
+.about-section {
+    height: 100%;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.portfolio-section {
+    height: 100%;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.experiences-section {
+    height: 100%;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.contact-section {
+    height: 100%;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.blank-section {
+    height: 100%;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.bg-one {
+  background:#efefef url("../images/image1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding-bottom: 70px;
+}
+.bg-two {
+  background:#efefef url("../images/image2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding-bottom: 70px;
+}
+.bg-three {
+  background:#efefef url("../images/image3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding-bottom: 70px;
+}
+.bg-four {
+  background:#efefef url("../images/image4.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding-bottom: 70px;
+}
+.bg-five {
+  background:#efefef url("../images/image5.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  padding-bottom: 70px;
+}
+.bg-six {
+  background:#efefef url("../images/image6.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  padding-bottom: 70px;
+}
+.bg-seven {
+  background:#efefef url("../images/image7.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  padding-bottom: 70px;
+}
+
+#info {
+  height: 6%;
+  margin-top: 5%;
+  padding: 10px;
+  text-align: justify;
+  background: rgba(5, 5, 5, 0.5);
+  border-radius: 5px;
+}
+
+#portcol {
+  background: rgba(5, 5, 5, 0.5);
+  border-radius: 5px;
+  text-align: justify;
+}
+
+.row, .row > div[class*='col-'] {  
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex:1 0 auto;
+}
+
+.panel {
+  width:100%;
+}
+
+footer {
+  height: 50px;
+  background-color: #212121;
+  text-align: center;
+  padding: 15px;
+}
